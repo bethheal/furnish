@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import k from "../constants";
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-56 py-10">
+    <div className="flex justify-between px-56 py-10 top-0 right-0 fixed w-full">
       <span>LiT</span>
       <div className="flex gap-x-16">
         {

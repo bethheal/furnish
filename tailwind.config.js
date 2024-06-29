@@ -6,7 +6,13 @@ export default {
     
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        wine:"#773A49",
+        ash:"#ABAAAB",
+        blue:"#052C43"
+      }
+    },
   },
   plugins: [],
 }
