@@ -7,11 +7,12 @@ const Services = () => {
     <div className="grid grid-cols-4 gap-x-2 h-50 py-2  ">
       {
         k.SERVICES.map(
-          (service,index)=>{
-            return <div key={index} style={{backgroundColor:service.bgColor}} className="p-20">
-              <span><Handshake/></span>
-              <h3 className="font-bold">{service.title}</h3>
-              <p className="font-thin">{service.desription}</p>
+          ({title,description,Icon,bgColor,iconBg},index)=>{
+            return <div key={index} style={{backgroundColor:bgColor}} className="p-20  rounded-l-full">
+              <p style={{backgroundColor:iconBg}} className=" border-4 rounded-full">{Icon} </p>
+
+              <h3 className="font-bold">{title}</h3>
+              <p className="font-thin">{description}</p>
             </div>
 
           }

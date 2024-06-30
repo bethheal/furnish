@@ -1,4 +1,4 @@
-import { Handshake, Icon } from "lucide-react";
+import { Computer, Cookie, Handshake, Icon, UserCheck2 } from "lucide-react";
 
 const k = {
     NAVLINKS:[
@@ -24,32 +24,32 @@ const k = {
 
     SERVICES:[
         {
-            title:"Amazing Deals",
-            desription:"Far far away, behind the word mountains, far from the countries Vokalia.",
+            title:"Meet Amazing People",
+            description:"We will aid  you to  connect with inspiring individuals in the tech industry",
             Icon: <Handshake/>,
             bgColor: "#F5EBEB",
-            iconBg:"#74BEC9"
+            iconBg:"#CB9696"
         },
         {
-            title:"Amazing Deals",
-            desription:"Far far away, behind the word mountains, far from the countries Vokalia.",
-            Icon: <Handshake/>,
+            title:"Network",
+            description:" We are designed to foster connections and collaboration among women with talent and  in the tech industry.",
+            Icon: <UserCheck2/>,
             bgColor: "#DCEBDD",
-            iconBg:"#74BEC9"
+            iconBg:"#8BBD8E"
         },
         {
-            title:"Amazing Deals",
-            desription:"Far far away, behind the word mountains, far from the countries Vokalia.",
-            Icon: <Handshake/>,
+            title:"Always Up to Date",
+            description:"We are dedicated to keeping women in tech informed and ahead of the curve. ",
+            Icon: <Computer/>,
             bgColor: "#F5EFD8",
-            iconBg:"#74BEC9"
+            iconBg:"#D1B54A"
         },
         {
-            title:"Amazing Deals",
-            desription:"Far far away, behind the word mountains, far from the countries Vokalia.",
-            Icon: <Handshake/>,
+            title:"Best Support",
+            description:" We focus on empowering women in the tech industry through mutual support and collaboration. ",
+            Icon: <Cookie/>,
             bgColor: "#F4E6D8",
-            iconBg:"#74BEC9"
+            iconBg:"#D29A61"
         },
        
 
