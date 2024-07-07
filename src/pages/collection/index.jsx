@@ -1,7 +1,11 @@
+import ImagesCollectionGrid from "./components/imagesCollectionGrid";
 
 const Collection = () => {
   return (
-    <div>Collection</div>
+    <div>
+
+    </div>
+
   )
 }
 
