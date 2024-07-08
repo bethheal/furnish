@@ -3,6 +3,13 @@ import ImagesCollectionGrid from "../../collection/components/imagesCollectionGr
 
 const Collection = () => {
   return (
+<div>
+    <div>
+      <span>OUR FINISH PROJECTS</span>
+      <h2>EXECUTIVES</h2>
+
+    </div>
+
     <div className='grid grid-cols-3'>
      <ImagesCollectionGrid 
      image={collectionOne}
@@ -30,6 +37,7 @@ const Collection = () => {
      />
 
    
+    </div>
     </div>
 
   )
