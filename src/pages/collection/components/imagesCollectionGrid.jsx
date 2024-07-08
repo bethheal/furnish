@@ -1,12 +1,11 @@
 import { Search } from 'lucide-react'
 import React from 'react'
 
-const ImagesCollectionGrid = (image,name) => {
+const ImagesCollectionGrid = ({image,name}) => {
   return (
-    <div>
+    <div >
       <img src={image} alt="collections" />
       <i><Search/></i>
-      
       <p>{name}</p>
     </div>
   )

@@ -1,12 +1,9 @@
-import ImagesCollectionGrid from "./components/imagesCollectionGrid";
+import React from 'react'
 
-const Collection = () => {
+const index = () => {
   return (
-    <div>
-
-    </div>
-
+    <div>index</div>
   )
 }
 
-export default Collection;
+export default index
